@@ -8,11 +8,13 @@
 	<name>Brewery</name>
 
 	<properties>
+		<finalName>${project.artifactId}-${project.version}</finalName>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<build>
+		<finalName>${finalName}</finalName>
 		<sourceDirectory>src</sourceDirectory>
 
 		<resources>
