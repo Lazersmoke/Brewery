@@ -45,6 +45,10 @@
 
 	<repositories>
 		<repository>
+			<id>jitpack.io</id>
+                        <url>https://jitpack.io</url>
+		</repository>
+		<repository>
 			<id>md_5-releases</id>
 			<url>http://repo.md-5.net/content/repositories/releases/</url>
 		</repository>
@@ -68,10 +72,6 @@
 			<id>dre2n-rpo</id>
 			<url>http://feuerstern.bplaced.net/repo/</url>
 		</repository>
-		<repository>
-			<id>devoted-repo</id>
-			<url>https://build.devotedmc.com/plugin/repository/everything/</url>
-		</repository>
 	</repositories>
 
 	<dependencies>
@@ -88,15 +88,15 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>vg.civcraft.mc.citadel</groupId>
+			<groupId>com.github.Lazersmoke</groupId>
 			<artifactId>Citadel</artifactId>
-			<version>3.9.1</version>
+			<version>3.9.3</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>vg.civcraft.mc.civmodcore</groupId>
+			<groupId>com.github.Lazersmoke</groupId>
 			<artifactId>CivModCore</artifactId>
-			<version>1.6.0</version>
+			<version>1.6.0-jitpack</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
